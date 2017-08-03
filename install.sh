@@ -13,3 +13,14 @@ if [ $? -ne 0 ]; then
 else
   echo "Xcode CLI tools OK"
 fi
+
+
+
+step "Setting your computer name (as done via System Preferences → Sharing)."
+echo -ne "  What would you like it to be? $bold"
+read computer_name
+echo -e "$reset"
+run sudo scutil --set ComputerName "'$computer_name'"
+run sudo scutil --set HostName "'$computer_name'"
+run sudo scutil --set LocalHostName "'$computer_name'"
+run sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "'$computer_name'"
