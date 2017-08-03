@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+# Script's color palette
+reset="\033[0m"
+highlight="\033[41m\033[97m"
+dot="\033[33m▸ $reset"
+dim="\033[2m"
+bold="\033[1m"
+
+
 echo "Checking Xcode CLI tools"
 # Only run if the tools are not installed yet
 # To check that try to print the SDK path
@@ -16,7 +24,7 @@ fi
 
 
 
-step "Setting your computer name (as done via System Preferences → Sharing)."
+echo "Setting your computer name (as done via System Preferences → Sharing)."
 echo -ne "  What would you like it to be? $bold"
 read computer_name
 echo -e "$reset"
