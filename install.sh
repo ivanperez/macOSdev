@@ -12,7 +12,7 @@ if [ $? -ne 0 ]; then
     head -n 1 | awk -F"*" '{print $2}' |
     sed -e 's/^ *//' |
     tr -d '\n')
-  softwareupdate -i "$PROD" -v;
+  softwareupdate --install "$PROD" --verbose;
 else
   echo "Xcode CLI tools OK"
 fi
