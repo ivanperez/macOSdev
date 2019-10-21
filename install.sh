@@ -7,6 +7,8 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `install.sh` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+curl -sL https://raw.githubusercontent.com/ivanperez/macOSdev/master/02.install_xcode_cli_tools.sh | bash -s
+git clone https://github.com/ivanperez/macOSdev.git
+cd macOSdev
 ./01.set_computer_name_macos.sh
-./02.install_xcode_cli_tools.sh
 ./03.install_homebrew.sh
