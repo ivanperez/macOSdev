@@ -1,0 +1,19 @@
+{
+  "name": "macosdev",
+  "version": "1.0.0",
+  "description": "```bash\r curl -sL https://git.io/macOSdev | bash -s\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanperez/macOSdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanperez/macOSdev/issues"
+  },
+  "homepage": "https://github.com/ivanperez/macOSdev#readme"
+}
