@@ -1,0 +1,196 @@
+{
+    //**************** THEME *************************
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": " JetBrains Mono, Dank Mono, Victor Mono, Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "DankMono Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#FFF2",
+        "gitDecoration.addedResourceForeground": "#17a313",
+        "gitDecoration.modifiedResourceForeground": "#dce670",
+        "gitDecoration.deletedResourceForeground": "#ff0000",
+        "gitDecoration.untrackedResourceForeground": "#17a313",
+        "tab.activeBorder": "#fff",
+        "sideBar.background": "#011d32"
+    },
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": -1,
+    // **************** PERFOMANCE ******************
+    "files.exclude": {
+        "USE_GITIGNORE": true
+    },
+    "npm.enableScriptExplorer": false,
+    "npm.exclude": "**",
+    // ***************** GIT *****************
+    "git.autofetch": true,
+    "git.fetchOnPull": true,
+    "git.confirmSync": false,
+    // ************* FORMATING **********************
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    //*********** ESLINT ***************************
+    "javascript.validate.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.options": {
+        "env": {
+            "browser": true,
+            "jest/globals": true,
+            "es6": true
+        },
+        "parserOptions": {
+            "ecmaVersion": 2019,
+            "sourceType": "module",
+            "ecmaFeatures": {
+                "jsx": true
+            }
+        },
+        "rules": {
+            "no-debugger": "off"
+        }
+    },
+    // ******************* SUGESTIONNS *****************
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showKeywords": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    // ******************* JEST *****************
+    "jest.enableInlineErrorMessages": true,
+    "jest.runAllTestsFirst": false,
+    "yaml.schemas": {
+        "file:///Users/uxer/.vscode/extensions/atlassian.atlascode-2.5.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "local-history.treeLocation": "localHistory",
+    "local-history.path": ".vscode/.history",
+    "local-history.absolute": true,
+    "profileSwitcher.profiles": [
+        "Whalar"
+    ],
+    "profileSwitcher.storage": {
+        "Whalar": {
+            "workbench.colorTheme": "Night Owl",
+            "workbench.iconTheme": "material-icon-theme",
+            "editor.fontFamily": "Dank Mono",
+            "editor.fontSize": 14,
+            "editor.fontLigatures": false,
+            "terminal.integrated.fontFamily": "DankMono Nerd Font",
+            "terminal.integrated.fontSize": 14,
+            "workbench.colorCustomizations": {
+                "editor.lineHighlightBackground": "#FFF2"
+            },
+            "window.zoomLevel": 0,
+            "files.exclude": {
+                "USE_GITIGNORE": true
+            },
+            "git.autofetch": true,
+            "git.fetchOnPull": true,
+            "git.confirmSync": false,
+            "editor.tabSize": 2,
+            "editor.formatOnPaste": false,
+            "editor.formatOnType": false,
+            "editor.formatOnSave": false,
+            "[javascript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "editor.suggestSelection": "recentlyUsed",
+                "editor.suggest.showKeywords": false
+            },
+            "[typescript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "editor.suggestSelection": "recentlyUsed",
+                "editor.suggest.showKeywords": false
+            },
+            "[javascriptreact]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            },
+            "javascript.validate.enable": true,
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true
+            },
+            "eslint.enable": true,
+            "eslint.alwaysShowStatus": true,
+            "eslint.validate": [
+                "javascript",
+                "javascriptreact",
+                "typescript",
+                "typescriptreact"
+            ],
+            "eslint.options": {
+                "env": {
+                    "browser": true,
+                    "jest/globals": true,
+                    "es6": true
+                },
+                "parserOptions": {
+                    "ecmaVersion": 2019,
+                    "sourceType": "module",
+                    "ecmaFeatures": {
+                        "jsx": true
+                    }
+                },
+                "rules": {
+                    "no-debugger": "off"
+                }
+            },
+            "editor.suggestSelection": "first",
+            "editor.snippetSuggestions": "top",
+            "editor.wordBasedSuggestions": false,
+            "editor.suggest.snippetsPreventQuickSuggestions": false,
+            "editor.quickSuggestionsDelay": 0,
+            "editor.quickSuggestions": {
+                "other": false,
+                "comments": false,
+                "strings": false
+            },
+            "jest.enableInlineErrorMessages": true,
+            "jest.runAllTestsFirst": false,
+            "yaml.schemas": {
+                "file:///Users/uxer/.vscode/extensions/atlassian.atlascode-2.5.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+            },
+            "[json]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            },
+            "local-history.treeLocation": "localHistory",
+            "local-history.path": ".vscode/.history",
+            "local-history.absolute": true
+        }
+    },
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "cSpell.enableFiletypes": [
+        "!json"
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "sync.gist": "62d24a9b443cefa668232e3db3080a0f",
+}
